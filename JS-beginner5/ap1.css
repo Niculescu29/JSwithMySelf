@@ -1,0 +1,15 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3em;
+    background-image: linear-gradient(to right, rgb(3, 10, 96) ,blue, rgb(0, 255, 229));
+}
+
+#mySubmit {
+    font-size: 1em;
+    background-color: hsl(240, 10%, 26%);
+    border-radius: 10px;
+}
+#mySubmit:hover {
+    background-color:  hsl(287, 11%, 16%);
+    border-radius: 14px;
+}
