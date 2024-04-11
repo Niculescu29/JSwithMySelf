@@ -25,6 +25,8 @@ let username = window.prompt("Enter your uusername:");
   // with chain 
 
 
-  username = username.trim().charAt(0).toUpperCase() + 
+  username = username.trim().charAt(0).toUpperCase() + username.trim().slice(1).toLowerCase();
+
+  console.log(username);
 
 
